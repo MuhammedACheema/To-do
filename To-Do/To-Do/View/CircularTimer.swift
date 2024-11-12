@@ -17,7 +17,9 @@ struct CircularTimer: View {
         ZStack{
             // Background circle
             Circle()
-                .fill(Color("Dark")).opacity(0.5)
+                .fill(Color("Dark"))
+                .opacity(0.5)
+                .frame(width: 250, height: 250)
             
             //timer circle
             Circle()
